@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "TestApp",
-    "slug": "TestApp",
+    "slug": "testapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -29,6 +29,12 @@
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8ab35e71-627c-4b45-9b61-89c44e4c803a"
+      }
+    },
+    "owner": "doantoni"
   }
 }
